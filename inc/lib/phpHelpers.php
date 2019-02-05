@@ -7,5 +7,5 @@
                     preg_replace('/[&]/',  'and',
                     preg_replace('/[\']/', '-', 
                     iconv('UTF-8', 'ASCII//TRANSLIT', $str))))), $delimiter));
-    return $slug;
+        return $slug;
     }

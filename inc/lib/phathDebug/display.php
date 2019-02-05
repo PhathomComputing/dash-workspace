@@ -5,17 +5,25 @@
     <span style="position:relative;padding:10px;"><b>Debug Console</b></span>
     <div id="debug-toggle" style="position:relative;"></div>
   </div>
-  <div style="padding:5px;background-color:white;position:relative;overflow-y:scroll; width:100%; height:90%;">
+  <div class="log-box" style="padding:5px;background-color:white;position:relative;overflow-y:scroll; width:100%; height:90%;">
     <p>
       <?php
-        if(isset($debug))
+        function recString($data){
+          if(is_array($data)){
+            recString($data);
+          }else{
+            return $data;
+          }
+        }
+
+        if(isset($debug ))
         {
           $txt = "";
 
           foreach ($debug as $key => $value) {
             if(is_array($value)){
               print_r($value);
-              $txt .=$value."\n";
+              
              
             } else {
               echo $value;
@@ -26,12 +34,7 @@
 
             echo "</br>=======================================</br>";
           }
-          if(!empty($debug)){
-
-          }
-          else {
-            echo "Debug is empty! Items:".$count;
-          }
+          
         } 
       ?>
     </p>
@@ -46,18 +49,19 @@
 
 <script type="text/javascript">
   $("#debug-hide").click(function(){
-    $("#debugWindow").animate({left:'-590px'},function(){
-      $("#debug-toggle").html('<span id="debug-show" class="glyphicon glyphicon glyphicon-arrow-right"></span>');
-    });
+    $("#debugWindow").animate({left:'-590px'});
   });
 
   $("#debug-show").click(function(){
-    $("#debugWindow").animate({left:'0px'},function(){
-      $("#debug-toggle").html('<span id="debug-hide" class="glyphicon glyphicon glyphicon-arrow-left"></span>');
-    });
+    $("#debugWindow").animate({left:'0px'});
   });
 
-
+  function hideDebug(){
+    $("#debugWindow").animate({left:'-590px'});
+  }
+  function showDebug(){
+    $("#debugWindow").animate({left:'0px'});
+  }
 window.onload = function() {
     if (window.jQuery) {  
         // jQuery is loaded  
@@ -66,7 +70,11 @@ window.onload = function() {
         // jQuery is not loaded
         console.log("Debug: JQuery Not Detected.");
     }
+    
 }
 
-
+console.log($('.log-box')[0].innerText);
+    if($('.log-box')[0].innerText != ''){
+      showDebug();
+    }
 </script>

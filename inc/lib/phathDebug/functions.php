@@ -1,7 +1,7 @@
 <?php
 $debug=[];
 $count=0;
-function add_checkpoint($check){
+function dbg_check($check){
   global $count;
   global $debug;
   $debug[$count]=$check;
@@ -22,5 +22,5 @@ function clear_debug(){
   $count = 0;
   $debug = [];
 }
-
+//maybe add js debug options
 ?>

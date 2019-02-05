@@ -1,9 +1,15 @@
+$( function() {
+    $( ".block-dialog" ).dialog();
+} );
 
+$( function() {
+    $( ".block-menu-accord" ).accordion();
+  } );
 
 $('.block-head').click(function(){
     var block = $(this).parent();
     if(!block.attr('block-max')){
-        block.attr('block-max',block.css('height'));
+        block.attr('block-max',block. css('height'));
     }
     var currentH = block.css('height');
     var maxH = block.attr('block-max');
