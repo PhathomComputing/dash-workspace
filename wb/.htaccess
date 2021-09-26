@@ -1,0 +1,28 @@
+RewriteEngine On
+# The following rule tells Apache that if the requested filename
+# exists, simply serve it.
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^--([^/]+)/?$ index.php [NC,L]
+
+ErrorDocument 400 /identity/400.php
+ErrorDocument 401 /identity/401.php
+ErrorDocument 403 /identity/403.php
+ErrorDocument 404 /identity/404.php
+ErrorDocument 500 /identity/500.php
+
+
+<Files "admin">
+Order deny,allow
+Deny from all
+</Files>
+
+
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|ps|sh|bmp|flv|ico|pdf)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+

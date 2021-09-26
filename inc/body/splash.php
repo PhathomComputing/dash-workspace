@@ -5,17 +5,17 @@
 	</div> 
 	<script>
         function hideSplash(){
-			$('#splash-logo').animate({'opacity':'0'},3000,function(){
+			$('#splash-logo').animate({'opacity':'0'},2000,function(){
 				$('#splash-logo').css({'display':'none'});
 			});
         }
-
+            
         $(document).ready(function(){
-			setTimeout(hideSplash(),3000);
+			setTimeout(hideSplash(),1000);
         });
-        function removeSplash(){
-            $('#splash-logo').css({'display':'none'});
-        }
+        // function removeSplash(){
+        //     $('#splash-logo').css({'display':'none'});
+        // }
 		
 		
         

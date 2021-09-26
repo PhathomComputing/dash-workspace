@@ -1,5 +1,6 @@
 <?php
-
+ 
+    
     function toSlug($str, $delimiter='-'){
         $slug = strtolower(trim(
                     preg_replace('/[\s-]+/',$delimiter, 

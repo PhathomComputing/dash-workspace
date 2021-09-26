@@ -1,0 +1,8 @@
+{
+  "name": "pdf-light-viewer",
+  "author": "Teamlead Power",
+  "version": "1.2.4",
+  "dependencies": {
+    "qtip2": "^2.2.1"
+  }
+}

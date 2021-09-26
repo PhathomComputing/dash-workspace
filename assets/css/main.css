@@ -26,9 +26,9 @@
 /**********BASE CONFIGURATIONS**********/   
 body {
 	background:#111111;
-	background-image:url('../img/twirk3d.png');
-	background-size:100%;
-	background-repeat:no-repeat;
+	background-image:url('../img/bg.JPG');
+	background-size:cover;
+	background-repeat:repeat;
 	background-attachment:fixed;
     font-family: 'Open Sans', sans-serif;
 }
@@ -58,107 +58,113 @@ h5 {
 /***********BLOCKS & WRAPS***********/
 
 /*--- Dash Unit / Used in Dashboard page ---*/
-.dash-unit {		
-	margin-bottom: 30px;
-	padding-bottom:10px;
-	border: 1px solid #383737;
-	background-image:url('../img/sep-half.png');
-	background-color: #3d3d3d;
-	color:white;
-	height:290px;
-	text-align:center;
-}
-
-.dash-unit:hover {
-	background-color: #4f4f4f;
-	-moz-box-shadow:    3px 3px 2px 0px #151515;
-    -webkit-box-shadow: 3px 3px 2px 0px #151515;
-    box-shadow:         3px 3px 2px 0px #151515;
-
-}
-
-.dash-unit dtitle {
-	font-size:11px;
-	text-transform:uppercase;
-	color:#ffffff;
-	margin:8px;
-	padding:0px;
-	height:inherit	
+	.dash-unit {		
+		margin-bottom: 30px;
+		padding-bottom:10px;
+		border: 1px solid #383737;
+		background-image:url('../img/sep-half.png');
+		background-color: #3d3d3d;
+		color:white;
+		height:290px;
+		text-align:center;
 	}
-	
-.dash-unit hr {
-  	border: 0;
-  	border-top: 1px solid #151515;
-  	border-top-style: dashed;
-	margin-top:3px;
-}
 
-.dash-unit h1 {
-	font-family: 'Raleway', sans-serif;
-	font-weight:300;
-	font-size: 20px;
-	line-height: 2px;
-	letter-spacing: 0px;
-	color: #ffffff;
-	padding-top:10px;
-	padding-left:5px;
-	margin-top:2px;
-	text-align:center;
-}
+	.dash-unit:hover {
+		background-color: #4f4f4f;
+		-moz-box-shadow:    3px 3px 2px 0px #151515;
+		-webkit-box-shadow: 3px 3px 2px 0px #151515;
+		box-shadow:         3px 3px 2px 0px #151515;
 
-.dash-unit h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 26px;
-	letter-spacing: 0px;
-	color: #ffffff;
-	padding-top:10px;
-	padding-left:5px;
-	margin-top:2px;
-	text-align:center;
-}
+	}
+
+	.dash-unit dtitle {
+		font-size:11px;
+		text-transform:uppercase;
+		color:#ffffff;
+		margin:8px;
+		padding:0px;
+		height:inherit	
+		}
+		
+	.dash-unit hr {
+		border: 0;
+		border-top: 1px solid #151515;
+		border-top-style: dashed;
+		margin-top:3px;
+	}
+
+	.dash-unit h1 {
+		font-family: 'Raleway', sans-serif;
+		font-weight:300;
+		font-size: 20px;
+		line-height: 2px;
+		letter-spacing: 0px;
+		color: #ffffff;
+		padding-top:10px;
+		padding-left:5px;
+		margin-top:2px;
+		text-align:center;
+	}
+
+	.dash-unit h2 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 26px;
+		letter-spacing: 0px;
+		color: #ffffff;
+		padding-top:10px;
+		padding-left:5px;
+		margin-top:2px;
+		text-align:center;
+	}
 
 
-.dash-unit h3 {
-	font-weight:300;
-	font-size: 15px;
-	line-height: 2px;
-	letter-spacing: 0px;
-	color: #b2c831;
-	padding-top:10px;
-	padding-left:5px;
-	margin-top:2px;
-	text-align:center;
-}
+	.dash-unit h3 {
+		font-weight:300;
+		font-size: 15px;
+		line-height: 2px;
+		letter-spacing: 0px;
+		color: #b2c831;
+		padding-top:10px;
+		padding-left:5px;
+		margin-top:2px;
+		text-align:center;
+	}
 
 
-.dash-unit p {
-	font-size: 14px;
-	font-weight: 200;
-	line-height: 16px;
-	color: inherit;
-	margin: 0 0 10px;
-	padding:5px;
- }
+	.dash-unit p {
+		font-size: 14px;
+		font-weight: 200;
+		line-height: 16px;
+		color: inherit;
+		margin: 0 0 10px;
+		padding:5px;
+	}
 
-.dash-unit h4 {
-	padding-left:5px;
-	margin-top:2px;
-	font-size: 13px;
-	font-weight:lighter;
-	line-height: 1;
-	letter-spacing: 0px;
-	color: #fff;
-}
+	.dash-unit h4 {
+		padding-left:5px;
+		margin-top:2px;
+		font-size: 13px;
+		font-weight:lighter;
+		line-height: 1;
+		letter-spacing: 0px;
+		color: #fff;
+	}
 
-.dash-unit bold{
-	font-family: 'Open Sans', sans-serif;
-	font-size:26px;
-	font-weight:bold;
-	color:#fff;
-	vertical-align:middle;
-}
+	.dash-unit bold{
+		font-family: 'Open Sans', sans-serif;
+		font-size:26px;
+		font-weight:bold;
+		color:#fff;
+		vertical-align:middle;
+	}
+/*--- Dash Unit / Used in Dashboard page ---*/
+
+
+
+
+
 
 
 /**********Half-Unit / Used in index.html**********/   
@@ -228,8 +234,14 @@ h5 {
 	color:#fff;
 	vertical-align:middle;
 }
+/**********Half-Unit / Used in index.html**********/   
 
-/**********Styling Elements**********/   
+
+
+
+
+/**********Styling Elements**********/ 
+
 .cont {
 	text-align:center;
 	margin-top:30px;
@@ -985,6 +997,9 @@ body {
    .navbar-nav {
 	   text-align:center;
    }
+
+   
+
    .navbar-collapse {
 	   margin-left:auto;
 	   margin-right:auto;
@@ -1026,7 +1041,14 @@ body {
 	margin-top: 0px;
 	height:auto;
 	background-color:rgba(30,30,30,.8);
+   }
 
+   @media(min-width:770px){
+	.search-nav{
+		margin-top: 50px;
+		height:auto;
+		background-color:rgba(30,30,30,.8);
+	   }
    }
 	.navbar-header{
 		position:relative;
@@ -1120,22 +1142,7 @@ body {
 	.chat-box > span.guest {
 		right:0px;
 	}
-	span.msg-user {
-		margin-bottom: 5px;
-
-		float: right;
-		margin-right: 20px;
-		background-color: cadetblue;
-		padding: 5px;
-		border-radius: 5px;
-	}
-	span.chat-guest {
-		float: left;
-		margin-left: 20px;
-		background-color: lightgrey;
-		padding: 5px;
-		border-radius: 5px;
-	}
+	
 	.chat-container > button {
 		box-shadow:0px 0px 15px white;
 		color:blue;

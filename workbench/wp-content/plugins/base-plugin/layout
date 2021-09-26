@@ -1,0 +1,108 @@
+
+"13483":
+{
+    "id_brand":587,
+    "brand_name":"CASIO CLOCKS",
+    "min_qty":0,
+    "id_product":95687,
+    "reference":"TQ-140-7EF",
+    "ean":"4971850595366",
+    "name":"CASIO SVEGLIA\/ALARM CLOCK Mod.  TQ-140-7EF",
+    "stock":0,
+    "retail_price":8.9000000000000004,
+    "discount":40,
+    "price":5.3399999999999999,
+    "weight":200,
+    "id_supplier":68,
+    "icon":"http:\/\/static.wwt.it\/store\/1\/CASIO CLOCKS\/icona_TQ-140-7EF.jpg",
+    "image":"http:\/\/static.wwt.it\/store\/1\/CASIO CLOCKS\/TQ-140-7EF.jpg",
+    "speed_shipping":2,
+    "attributes":"WR: ONLY SPLASH PROOF - Case: 57 mm - Case Material: Resin - Movement: Quartz Analog - Functions: Alarm - Glass: Plastic - Product Type: Alarm Clock - Packaging: Official Box",
+    "group":"WATCHES",
+    "category":"CLOCKS",
+    "img_last_update":"2018-01-10 22:25:00"
+}
+
+
+
+
+
+stdClass Object ( 
+    
+[id_brand] => 45 
+[brand_name] => DIESEL 
+[min_qty] => 0 
+[id_product] => 123079 
+[reference] => DZ1553 
+[ean] => 8431242396101 
+[name] => DIESEL Mod. DZ1553 
+[stock] => 0 
+[retail_price] => 139 
+[discount] => 45.33 
+[price] => 75.99 
+[weight] => 300 
+[id_supplier] => 73082 
+[icon] => http://static.wwt.it/store/1/DIESEL/icona_DZ1553.jpg 
+[image] => http://static.wwt.it/store/1/DIESEL/DZ1553.jpg 
+[speed_shipping] => 1 
+[attributes] => [group] => WATCHES 
+[category] => READY STOCK WATCHES 
+[img_last_update] => 2018-09-21 11:06:02 )
+
+[price] x 1.2 x (1+[discount]/100) + 25 euro = ... x 1.9558
+
+
+
+Array ( [term_id] => 25 [term_taxonomy_id] => 25 )
+
+
+DB
+
+ ( [ID] => 33 
+ [post_author] => 1 
+ [post_date] => 2020-02-29 12:34:29 
+ [post_date_gmt] => 2020-02-29 12:34:29 
+ [post_content] => Name: DIESEL Mod. MACHINUSn Brand: DIESELn Reference: DZ7358n EAN: 4053858561199n Retail Price: 349n Weight: 300n 
+ [post_title] => DIESEL Mod. MACHINUS 
+ [post_excerpt] => 
+ [post_status] => publish 
+ [comment_status] => open 
+ [ping_status] => closed 
+ [post_password] => 
+ [post_name] => diesel-mod-machinus 
+ [to_ping] => 
+ [pinged] => 
+ [post_modified] => 2020-02-29 12:34:29 
+ [post_modified_gmt] => 2020-02-29 12:34:29 
+ [post_content_filtered] => 
+ [post_parent] => 0 
+ [guid] => http://localhost/root/1%20WordPress/wordpress%20timezone24/index.php/product/diesel-mod-machinus/ 
+ [menu_order] => 0 
+ [post_type] => product 
+ [post_mime_type] => 
+ [comment_count] => 0 )
+
+
+
+{
+    "100":{
+        "id_brand":45,
+        "brand_name":"DIESEL",
+        "min_qty":0,
+        "id_product":368201,
+        "reference":"DZ4442",
+        "ean":"4053858814103",
+        "name":"DIESEL Mod. PADLOCK",
+        "stock":2,"retail_price":259,
+        "discount":27.87,"price":186.82,
+        "weight":300,"id_supplier":7400,
+        "icon":"http:\/\/static.wwt.it\/store\/1\/DIESEL\/icona_DZ4442.jpg",
+        "image":"http:\/\/static.wwt.it\/store\/1\/DIESEL\/DZ4442.jpg",
+        "speed_shipping":1,
+        "attributes":"WR: 10 ATM - Case: 46 mm - Gender: Gent - Case Material: SS IP Black - Strap Material: SS IP Black - Movement: Quartz - Functions: Chronograph - Date - Glass: Mineral - Product Type: Wristwatch - Packaging: Official Box",
+        "group":"WATCHES",
+        "category":"READY STOCK WATCHES",
+        "img_last_update":"2018-10-10 04:01:04"
+        },
+    "101":{
+        "id_brand":45,"brand_name":"DIESEL","min_qty":0,"id_product":368202,"reference":"DZ4456","ean":"4053858896727","name":"DIESEL Mod. RASP","stock":0,"retail_price":239,"discount":27.87,"price":172.39,"weight":300,"id_supplier":7400,"icon":"http:\/\/static.wwt.it\/store\/1\/DIESEL\/icona_DZ4456.jpg","image":"http:\/\/static.wwt.it\/store\/1\/DIESEL\/DZ4456.jpg","speed_shipping":1,"attributes":"WR: 10 ATM - Case: 46 mm - Gender: Gent - Case Material: SS IP Gun - Strap Material: Leather Strap - Movement: Quartz - Functions: Chronograph - Date - Glass: Mineral - Product Type: Wristwatch - Packaging: Official Box","group":"WATCHES","category":"READY STOCK WATCHES","img_last_update":"2018-09-21 11:12:02"},"102":{"id_brand":45,"brand_name":"DIESEL","min_qty":0,"id_product":368203,"reference":"DZ4472","ean":"4053858972421","name":"DIESEL Mod. MS9","stock":0,"retail_price":239,"discount":62,"price":90.82,"weight":200,"id_supplier":68,"icon":"http:\/\/static.wwt.it\/store\/1\/DIESEL\/icona_DZ4472.jpg","image":"http:\/\/static.wwt.it\/store\/1\/DIESEL\/DZ4472.jpg","speed_shipping":2,"attributes":"WR: 10 ATM - Case: 47 mm - Gender: Gent - Case Material: SS IP Green - Strap Material: Leather Strap - Movement: Quartz - Functions: Chronograph - Date - Glass: Mineral - Product Type: Wristwatch - Packaging: Official Box","group":"WATCHES","category":"READY STOCK WATCHES","img_last_update":"2018-09-21 11:12:02"},"103":{"id_brand":45,"brand_name":"DIESEL","min_qty":0,"id_product":368204,"reference":"DZ5454","ean":"4053858414617","name":"DIESEL Mod. FLARE","stock":0,"retail_price":259,"discount":62,"price":98.42,"weight":200,"id_supplier":68,"icon":"http:\/\/static.wwt.it\/store\/1\/DIESEL\/icona_DZ5454.jpg","image":"http:\/\/static.wwt.it\/store\/1\/DIESEL\/DZ5454.jpg","speed_shipping":2,"attributes":"WR: 10 ATM - Case: 40 mm - Gender: Gent - Case Material: SS IP Rose Gold - Strap Material: SS IP Rose Gold - Movement: Quartz - Functions: Chronograph - Date - Glass: Mineral - Product Type: Wristwatch - Packaging: Official Box","group":"WATCHES","category":"READY STOCK WATCHES","img_last_update":"2018-09-21 11:12:02"}

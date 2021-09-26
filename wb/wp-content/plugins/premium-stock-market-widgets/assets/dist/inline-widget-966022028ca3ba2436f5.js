@@ -1,0 +1,13 @@
+/*!
+ * 
+ * Premium Stock Market Widgets
+ * -----------------------------
+ * Version 3.2.6, built on Friday, June 4, 2021
+ * Copyright (c) Financial apps and plugins <info@financialplugins.com>. All rights reserved
+ * Demo: https://stockmarketwidgets.financialplugins.com/
+ * Purchase (WordPress version): https://1.envato.market/az97R
+ * Purchase (PHP version): https://1.envato.market/AQ17o
+ * Like: https://www.facebook.com/financialplugins/
+ * 
+ */
+(window.webpackJsonp94003=window.webpackJsonp94003||[]).push([[21],{1045:function(e,t,a){"use strict";a.r(t);var n=function(){var e=this.$createElement;return(this._self._c||e)("generic",this._b({tag:"component"},"component",this.$attrs,!1))};n._withStripped=!0;var s=a(267),i=a(12),l=a(261),o=a(264),r=a(265),c=a(263),p={components:{Quote:o.a,Logo:r.a,Placeholder:c.a},mixins:[l.a],data:()=>({template:null}),created(){this.compileTemplate(),this.$watch("$attrs.markup",()=>{this.compileTemplate()})},methods:{componentMarkup:e=>"logo"===e?'<logo :asset="asset"></logo>':'<quote v-bind="$attrs" :asset="asset" field="'+e+'" :color-indicator="'+(["change_abs","change_pct"].indexOf(e)>-1?"true":"false")+'"></quote>',compileTemplate(){var e=this.$attrs.markup?this.$attrs.markup.replace(/{[a-z0-9_-]+}/gi,e=>{var t=e.replace(/[{}]/g,"");return this.componentMarkup(t)}):"";this.template=i.a.compile('<span :class="classes">\n          <placeholder :display="display">\n            '.concat(e,"\n          </placeholder>\n        </span>")).render}},render:function(e){return this.template?this.template():null}},d=(a(806),a(0)),u=Object(d.a)(p,void 0,void 0,!1,null,"4c612edf",null);u.options.__file="assets/js/components/widgets/inline/template.vue";var m={components:{Generic:u.exports},mixins:[s.a]},h=Object(d.a)(m,n,[],!1,null,null,null);h.options.__file="assets/js/components/widgets/inline/type.vue";t.default=h.exports},415:function(e,t,a){var n=a(28),s=a(807);"string"==typeof(s=s.__esModule?s.default:s)&&(s=[[e.i,s,""]]);var i={insert:"head",singleton:!1};n(s,i);e.exports=s.locals||{}},806:function(e,t,a){"use strict";var n=a(415);a.n(n).a},807:function(e,t,a){"use strict";a.r(t);var n=a(16),s=a.n(n)()(!1);s.push([e.i,".smw-widget[data-v-4c612edf]{color:inherit}.smw-widget>div[data-v-4c612edf] {display:inline !important}.smw-widget>div[data-v-4c612edf] .smw-placeholder{display:inline-block;vertical-align:middle}\n",""]),t.default=s}}]);

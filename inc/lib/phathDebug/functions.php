@@ -1,6 +1,7 @@
 <?php
 $debug=[];
 $count=0;
+
 function dbg_check($check){
   global $count;
   global $debug;

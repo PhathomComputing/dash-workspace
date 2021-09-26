@@ -1,11 +1,11 @@
 <?php
 ?>
-<div style="border-radius:10px;padding:15px;position:fixed;top:25%;left:0px;z-index:110; width:600px; height:60%; background-color:rgba(200,150,150,.9);left:-590px" id="debugWindow">
+<div id="debugWindow" class="debug-widget" style="border-radius:10px;padding:15px;position:fixed;top:25%;left:0px;z-index:110; width:600px; height:60%; background-color:rgba(200,150,150,.9);left:-590px" >
   <div style="position:relative;width:100%; height:30px;">
     <span style="position:relative;padding:10px;"><b>Debug Console</b></span>
     <div id="debug-toggle" style="position:relative;"></div>
   </div>
-  <div class="log-box" style="padding:5px;background-color:white;position:relative;overflow-y:scroll; width:100%; height:90%;">
+  <div class="log-box" style="">
     <p>
       <?php
         function recString($data){
@@ -23,6 +23,7 @@
           foreach ($debug as $key => $value) {
             if(is_array($value)){
               print_r($value);
+              echo "\n";
               
              
             } else {
@@ -39,10 +40,10 @@
       ?>
     </p>
   </div>
-  <div id="debugControl" style="border-radius:5px;padding: 10px;position:fixed;right:0px;bottom:0px; background-color:rgba(200,150,150,.9);">
+  <div id="debugControl" class="debug-control" style="">
     <b>
-      <a><button id="debug-hide" class="glyphicon glyphicon-minus"></button></a>
-      <a><button id="debug-show" class="glyphicon glyphicon-plus"></button></a>
+      <a><button id="debug-hide" class="debug-toggle glyphicon-minus"></button></a>
+      <a><button id="debug-show" class="debug-toggle glyphicon-plus"></button></a>
     </b>
   </div>
 </div>

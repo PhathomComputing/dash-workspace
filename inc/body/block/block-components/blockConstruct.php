@@ -1,14 +1,55 @@
 <?php 
+
+class block{
+    // function constructor(){
+    //     $this->blockParts = [
+    //         'blockStart'=>'<div class="grid-unit"><div class="dash-unit block-flat">',
+    //         'blockEnd'=>'</div></div>',
+        
+    //     ]
+    // }
+    
+    // function blockStart(){
+
+    // }
+}
+
+
+function setTitle($input){
+    return '<div class="block-head"><dtitle class="'.toSlug($input).'-block">'.$input.'</dtitle></div>';
+}
+function imageThumb($imageUrl,$alt){
+    return '<div class="thumbnail">
+                <img src="'.$imageUrl.'" alt="'.$alt.'" class="img-circle">
+            </div><!-- /thumbnail -->';
+}
+
+    
+
+function blockScript($loc){
+    $buildScript = `<script src="`;
+    $buildScript .= $loc;
+    $buildScript .=`"></script>`;
+    dbg_check( $buildScript) ;
+    return 	 $buildScript;
+
+}
 function mbBlockStart(){
-    return '<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 block-flat"><div class="dash-unit block-flat">';
+    return '<div class="grid-unit"><div class="dash-unit block-flat">';
 }
- 
 function smBlockStart(){
-    return'<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 block-flat"><div class="dash-unit half-unit block-flat">';
+    return'<div class="grid-unit"><div class="dash-unit half-unit block-flat">';
 }
+
+
 function smBlockMid(){
     return'</div><div class="half-unit dash-unit block-flat">';
 }
+function smBlockEnd(){
+    return'</div>';
+}
+
+
 
 function blockEnd(){
     return '</div></div>';
@@ -19,7 +60,7 @@ function blockDialog(){
     ';
 }
 
-function modalStart($id, $buttonClasses){
+function modalStart($id, $buttonClasses,$name){
     $classes=' ';
     if(is_array($buttonClasses)){
         foreach ($buttonClasses as $key => $value){
@@ -39,7 +80,7 @@ function modalStart($id, $buttonClasses){
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Browser</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">'.$name.'</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>

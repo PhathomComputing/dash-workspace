@@ -56,10 +56,10 @@
 
                 // on getting media stream
                 meeting.onaddstream = function (e) {
-                    console.log(e);
+                    //console.log(e);
                     if (e.type == 'local' && meeting.active == false) localMediaStream.appendChild(e.video);
                     if (e.type == 'remote' && meeting.active == true) {
-                        console.log(e);
+                        //console.log(e);
                         remoteMediaStreams.insertBefore(e.video, remoteMediaStreams.firstChild);
                     }
                 };
@@ -215,7 +215,7 @@
                     tr.innerHTML = '<td>' + _screen.userid + ' shared his screen.</td>' +
                             '<td><button class="join">View</button></td>';
                     roomsList.insertBefore(tr, roomsList.firstChild);
-                    console.log("tr:"+tr);
+                    //console.log("tr:"+tr);
                     var button = tr.querySelector('.join');
                     button.setAttribute('data-userid', _screen.userid);
                     button.setAttribute('data-roomid', _screen.roomid);
@@ -337,7 +337,7 @@
                         onMessageCallback: function(data) {
                             if (!(typeof data == 'string' || !!data.sourceId)) return;
 
-                            console.log('chrome message', data);
+                            //console.log('chrome message', data);
 
                             // "cancel" button is clicked
                             if(data == 'PermissionDeniedError') {
@@ -406,7 +406,7 @@
                     DetectRTC.screen.onMessageCallback(event.data);
                 });
 
-                console.log('current chromeMediaSource', DetectRTC.screen.chromeMediaSource);
+                //console.log('current chromeMediaSource', DetectRTC.screen.chromeMediaSource);
             </script>
 
 

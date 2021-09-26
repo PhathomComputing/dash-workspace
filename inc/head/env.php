@@ -1,6 +1,10 @@
 <?php
     $env = $db->query("SELECT data FROM session WHERE type = 'env'");
     $jsondata = mysqli_fetch_assoc($env);
+    
+
+    
+    
     if(isset($seshData)){
         dbg_check($seshData);
         dbg_check(is_object($seshData));
@@ -8,7 +12,7 @@
         if(!isset($seshData['css'])){
             $defaultData = (object)[
                                 "css"=>(object)[
-                                    "background-color"=>"#111111",
+                                    "background-color"=>"#999999",
                                     "background-url"=>"assets/img/twirk3d.png"
 
                                 ]
@@ -17,7 +21,7 @@
             
 
             //DBG_CHECK
-            if($db->query("UPDATE session SET data ='".$encodejs."'")){
+            if($db->query(`UPDATE session SET data ='`.$encodejs.`'`)){
                 dbg_check( "Session Saved Successfully!");
             } else {
                 dbg_check( ['ok' => false, 'error' => $db->error_list, 'query' => $query]);

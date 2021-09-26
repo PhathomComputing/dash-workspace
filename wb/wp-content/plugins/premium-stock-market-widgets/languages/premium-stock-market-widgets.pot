@@ -1,0 +1,1290 @@
+# Copyright (C) 2021 Premium Stock Market Widgets
+# This file is distributed under the same license as the Premium Stock Market Widgets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Premium Stock Market Widgets\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../admin/add-ons.php:11, ../classes/PremiumStockMarketWidgets/Plugin.php:683
+msgid "Add-ons"
+msgstr ""
+
+#: ../admin/add-ons.php:20, ../admin/install.php:19
+msgid "Installation successfully completed!"
+msgstr ""
+
+#: ../admin/add-ons.php:48, ../admin/add-ons.php:51, ../admin/install.php:47
+msgid "Purchase code"
+msgstr ""
+
+#: ../admin/add-ons.php:55, ../admin/install.php:54
+msgid "Where is my purchase code?"
+msgstr ""
+
+#: ../admin/add-ons.php:77
+msgid "Demo"
+msgstr ""
+
+#: ../admin/add-ons.php:81
+msgid "Purchase"
+msgstr ""
+
+#: ../admin/add-ons.php:72
+msgid "Installed"
+msgstr ""
+
+#: ../admin/builder.php:11, ../admin/install.php:24, ../classes/PremiumStockMarketWidgets/Plugin.php:673
+msgid "Widget Builder"
+msgstr ""
+
+#: ../admin/help.php:11, ../classes/PremiumStockMarketWidgets/Plugin.php:688
+msgid "Help"
+msgstr ""
+
+#: ../admin/install.php:11, ../classes/PremiumStockMarketWidgets/Plugin.php:501, ../classes/PremiumStockMarketWidgets/Plugin.php:693
+msgid "Finish installation"
+msgstr ""
+
+#: ../admin/install.php:37
+msgid "To complete installation please enter your purchase code below."
+msgstr ""
+
+#: ../admin/install.php:62
+msgid "Proceed"
+msgstr ""
+
+#: ../admin/settings.php:11, ../classes/PremiumStockMarketWidgets/Plugin.php:678
+msgid "Settings"
+msgstr ""
+
+#: ../admin/settings.php:19
+msgid "Settings are successfully saved."
+msgstr ""
+
+#: ../admin/settings.php:42
+msgid "Enqueue priority"
+msgstr ""
+
+#: ../admin/settings.php:51
+msgid "AJAX method"
+msgstr ""
+
+#: ../admin/settings.php:56
+msgid "GET"
+msgstr ""
+
+#: ../admin/settings.php:57
+msgid "POST"
+msgstr ""
+
+#: ../admin/settings.php:67
+msgid "Thousands separator"
+msgstr ""
+
+#: ../admin/settings.php:76
+msgid "Decimal separator"
+msgstr ""
+
+#: ../admin/settings.php:85
+msgid "Default number format"
+msgstr ""
+
+#: ../admin/settings.php:91, ../admin/settings.php:140
+msgid "View supported formats"
+msgstr ""
+
+#: ../admin/settings.php:99
+msgid "Fields number format"
+msgstr ""
+
+#: ../admin/settings.php:104
+msgid "You can override the default number format and specify individual number format for certain fields."
+msgstr ""
+
+#: ../admin/settings.php:111
+msgid "Display empty / null values as"
+msgstr ""
+
+#: ../admin/settings.php:120
+msgid "Date locale"
+msgstr ""
+
+#: ../admin/settings.php:126
+msgid "View supported locales"
+msgstr ""
+
+#: ../admin/settings.php:134
+msgid "Default date format"
+msgstr ""
+
+#: ../admin/settings.php:148
+msgid "Fields date format"
+msgstr ""
+
+#: ../admin/settings.php:153
+msgid "You can override the default date format and specify individual date format for certain fields."
+msgstr ""
+
+#: ../admin/settings.php:162
+msgid "Hide asset symbol (ticker) suffix"
+msgstr ""
+
+#: ../admin/settings.php:171
+msgid "Default asset logo URL"
+msgstr ""
+
+#: ../admin/settings.php:177
+msgid "Displayed if an individual logo image is not set for a given asset."
+msgstr ""
+
+#: ../admin/settings.php:178
+msgid "Input an absolute URL or upload a custom logo."
+msgstr ""
+
+#: ../admin/settings.php:189, ../admin/settings.php:236
+msgid "File..."
+msgstr ""
+
+#: ../admin/settings.php:205
+msgid "Available asset logo images"
+msgstr ""
+
+#: ../admin/settings.php:222
+msgid "Upload asset logo"
+msgstr ""
+
+#: ../admin/settings.php:226
+msgid "Symbol, e.g. AAPL, MSFT etc"
+msgstr ""
+
+#: ../admin/settings.php:258
+msgid "Google Maps API key"
+msgstr ""
+
+#: ../admin/settings.php:264
+msgid "How to get an API key?"
+msgstr ""
+
+#: ../admin/settings.php:268
+msgid "Also please ensure that Geocoding API is enabled."
+msgstr ""
+
+#: ../admin/settings.php:277
+msgid "Asset names overrides"
+msgstr ""
+
+#: ../admin/settings.php:282
+msgid "Provide asset names overrides as SYMBOL=NAME pairs (one pair per line)."
+msgstr ""
+
+#: ../admin/settings.php:289
+msgid "Asset recognition regex"
+msgstr ""
+
+#: ../admin/settings.php:295, ../admin/settings.php:309
+msgid "Learn more about this feature"
+msgstr ""
+
+#: ../admin/settings.php:303
+msgid "Virtual asset page regex"
+msgstr ""
+
+#: ../admin/settings.php:317
+msgid "Virtual asset page content"
+msgstr ""
+
+#: ../admin/settings.php:328, ../classes/PremiumStockMarketWidgets/Plugin.php:425
+msgid "Save"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:212
+msgid "Same window"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:213
+msgid "New window"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:214
+msgid "15 minutes"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:215
+msgid "30 minutes"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:216
+msgid "60 minutes"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:217
+msgid "90 minutes"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:218
+msgid "1 hour"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:219
+msgid "1 day"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:220
+msgid "5 days"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:221
+msgid "1 week"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:222
+msgid "1 month"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:223
+msgid "3 months"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:224
+msgid "6 months"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:225
+msgid "1 year"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:226
+msgid "2 years"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:227
+msgid "5 years"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:228
+msgid "10 years"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:229
+msgid "52 week low"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:230
+msgid "52 week low change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:231
+msgid "52 week low % change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:232
+msgid "52 week high"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:233
+msgid "52 week high change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:234
+msgid "52 week high % change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:235
+msgid "52 week change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:236
+msgid "52 week low / high"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:237
+msgid "52 week range"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:238
+msgid "Five Year Avg Dividend Yield"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:239
+msgid "50 day average"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:240
+msgid "200 day average"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:241
+msgid "Address"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:242
+msgid "Alignment"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:243
+msgid "Animation"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:244
+msgid "Trailing Annual Dividend Rate"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:245
+msgid "Trailing Annual Dividend Yield"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:246
+msgid "Any"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:247
+msgid "Algorithm"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:248
+msgid "Anonymity"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:249
+msgid "Analyst opinions count"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:250
+msgid "API"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:251
+msgid "API type"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:252
+msgid "Ascending"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:253
+msgid "Ask"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:254
+msgid "Asset"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:255
+msgid "Assets"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:256
+msgid "Average volume"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:257
+msgid "Average volume 10 days"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:258
+msgid "Display axes"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:259
+msgid "Beta"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:260
+msgid "Bid"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:261
+msgid "Book value"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:262
+msgid "Bottom center"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:263
+msgid "Bottom left"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:264
+msgid "Bottom right"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:265
+msgid "Buy"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:266
+msgid "Call"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:267
+msgid "Calls"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:268
+msgid "Center"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:269, ../classes/PremiumStockMarketWidgets/Plugin.php:394
+msgid "Change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:270, ../classes/PremiumStockMarketWidgets/Plugin.php:395
+msgid "% Change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:271
+msgid "Chart"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:272
+msgid "Chart range"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:273
+msgid "Chart interval"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:274
+msgid "City"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:275
+msgid "Close"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:276
+msgid "Closed"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:277
+msgid "Closes in"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:278
+msgid "Color"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:279
+msgid "Contract size"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:280
+msgid "Contract symbol"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:281
+msgid "Copy"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:282
+msgid "Country"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:283
+msgid "Country code"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:284
+msgid "Current ratio"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:285
+msgid "Currency"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:286
+msgid "Currency symbol"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:287
+msgid "Currencies"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:288
+msgid "Cursor"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:289
+msgid "Date"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:290
+msgid "Day low / high"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:291
+msgid "Date / time"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:292
+msgid "Debt / Equity"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:293
+msgid "Descending"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:294
+msgid "Description"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:295
+msgid "Direction"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:296
+msgid "Display chart for selected asset"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:297
+msgid "Display currency symbol"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:298
+msgid "Display header"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:299
+msgid "Dividend rate"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:300
+msgid "Dividend yield"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:301
+msgid "Earnings growth"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:302
+msgid "EBITDA"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:303
+msgid "EBITDA margin"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:304
+msgid "Number of employees"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:305
+msgid "Enterprise EBITDA"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:306
+msgid "Enterprise revenue"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:307
+msgid "Enterprise value"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:308
+msgid "Earnings per share"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:309
+msgid "Ex-Dividend date"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:310
+msgid "Exchange code"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:311
+msgid "Exchange"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:312
+msgid "Exchange timezone"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:313
+msgid "Exchange timezone code"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:314
+msgid "Expiration date"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:315
+msgid "RSS feed URL"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:316
+msgid "Field"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:317
+msgid "Fields"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:318
+msgid "Flag"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:319, ../classes/PremiumStockMarketWidgets/Plugin.php:344, ../classes/PremiumStockMarketWidgets/Plugin.php:345, ../classes/PremiumStockMarketWidgets/Plugin.php:357, ../classes/PremiumStockMarketWidgets/Plugin.php:359
+msgid "Name"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:320
+msgid "Forward earnings per share"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:321
+msgid "Forward P/E ratio"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:322
+msgid "Free cashflow"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:323
+msgid "Gross profit"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:324
+msgid "Gross margin"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:325
+msgid "High"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:326
+msgid "Implied volatility"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:327
+msgid "In the money"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:328
+msgid "Industry"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:329
+msgid "Insert"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:330
+msgid "Interval"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:331
+msgid "Yes"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:332
+msgid "Last split factor"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:333
+msgid "Last split date"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:334
+msgid "Last trade date"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:335
+msgid "Last update"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:336
+msgid "Left"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:337
+msgid "Left (last column right)"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:338
+msgid "Limit"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:339
+msgid "Line"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:340
+msgid "Link"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:341
+msgid "Links target"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:342
+msgid "Links"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:343
+msgid "Logo"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:346
+msgid "Low"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:347
+msgid "Low / High"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:348
+msgid "This company address could not be located."
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:349
+msgid "There was an error while geocoding the address."
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:350
+msgid "Market"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:351
+msgid "Markets"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:352
+msgid "Market cap"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:353
+msgid "Mkt cap"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:354
+msgid "Text (markup)"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:355
+msgid "Max"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:356
+msgid "Mode"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:358
+msgid "Name (LC)"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:360
+msgid "Net income to common"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:361
+msgid "No"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:362
+msgid "b"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:363
+msgid "k"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:364
+msgid "m"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:365
+msgid "t"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:366
+msgid "Open"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:367
+msgid "Open interest"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:368
+msgid "Opens in"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:369
+msgid "Operating cashflow"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:370
+msgid "Operating margin"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:371
+msgid "Options type"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:372
+msgid "Asset page URL"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:373
+msgid "Pagination"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:374
+msgid "Pause"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:375
+msgid "Pause on hover"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:376
+msgid "Payout ratio"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:377
+msgid "P/E ratio"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:378
+msgid "PEG ratio"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:379
+msgid "Period"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:380
+msgid "Phone"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:381
+msgid "Position"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:382
+msgid "Widget preview"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:383
+msgid "Previous close"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:384
+msgid "Price"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:385
+msgid "Price / Book"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:386
+msgid "Price / Sales"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:387
+msgid "Profit margin"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:388
+msgid "Purchase date"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:389
+msgid "Purchase price"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:390
+msgid "Sell date"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:391
+msgid "Sell price"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:392
+msgid "Portfolio structure"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:393, ../classes/PremiumStockMarketWidgets/Plugin.php:402
+msgid "Quantity"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:396
+msgid "Cost"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:397
+msgid "Market value"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:398
+msgid "Return"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:399
+msgid "% Return"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:400
+msgid "Put"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:401
+msgid "Puts"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:403
+msgid "Quarterly earnings growth"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:404
+msgid "Quick ratio"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:405
+msgid "Range"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:406
+msgid "Range selector"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:407
+msgid "5d"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:408
+msgid "1m"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:409
+msgid "3m"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:410
+msgid "6m"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:411
+msgid "1y"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:412
+msgid "2y"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:413
+msgid "5y"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:414
+msgid "10y"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:415
+msgid "Read more"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:416
+msgid "Recommendation mean"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:417
+msgid "Recommendation key"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:418
+msgid "Revenue growth"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:419
+msgid "Revenue per share"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:420
+msgid "Return on assets"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:421
+msgid "Return on equity"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:422
+msgid "Right"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:423
+msgid "Right (first column left)"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:424
+msgid "Rows per page"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:426
+msgid "Search"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:427
+msgid "Symbol or company name"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:428
+msgid "Search..."
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:429
+msgid "No matching records found"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:430
+msgid "Sector"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:431
+msgid "Sell"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:432
+msgid "Shares outstanding"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:433
+msgid "Shares float"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:434
+msgid "Shares short"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:435
+msgid "Short ratio"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:436
+msgid "Short % of float"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:437
+msgid "Shortcode"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:438
+msgid "Server locations"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:439
+msgid "Skip"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:440
+msgid "Sort field"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:441
+msgid "Sort direction"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:442
+msgid "Status"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:443
+msgid "Strike"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:444
+msgid "Symbol"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:445
+msgid "Symbol (LC)"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:446
+msgid "Speed"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:447
+msgid "Start expanded"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:448
+msgid "State"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:449
+msgid "Extra CSS styles"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:450
+msgid "Target"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:451
+msgid "Target high price"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:452
+msgid "Target low price"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:453
+msgid "Target mean price"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:454
+msgid "Target median price"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:455
+msgid "Template"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:456
+msgid "Theme"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:457
+msgid "Timeout"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:458
+msgid "Timezone"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:459
+msgid "Title"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:460
+msgid "Top center"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:461
+msgid "Top left"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:462
+msgid "Top right"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:463
+msgid "Total"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:464
+msgid "Total cash"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:465
+msgid "Total cash per share"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:466
+msgid "Total debt"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:467
+msgid "Total change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:468
+msgid "Total % change"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:469
+msgid "Total cost"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:470
+msgid "Total value"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:471
+msgid "Total return"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:472
+msgid "Total % return"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:473
+msgid "Total revenue"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:474
+msgid "Opens at"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:475
+msgid "Closes at"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:476
+msgid "Trading hours"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:477
+msgid "Type"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:478
+msgid "Unknown"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:479
+msgid "URL"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:481
+msgid "Volume"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:482
+msgid "Website"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:483
+msgid "X axis field"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:484
+msgid "Y axis field"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:485
+msgid "ZIP"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:486
+msgid "Zoom"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:752
+msgid "General"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:753
+msgid "Format"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:754
+msgid "Logo images"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:755
+msgid "Integration"
+msgstr ""
+
+#: ../classes/PremiumStockMarketWidgets/Plugin.php:756
+msgid "Advanced"
+msgstr ""

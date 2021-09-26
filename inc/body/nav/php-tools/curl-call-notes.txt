@@ -1,0 +1,48 @@
+   curl -v https: api-m.sandbox.paypal.com/v1/oauth2/token -H "Accept: application/json" -H "Accept-Language: en_US" -u "client_id:secret" -d "grant_type=client_credentials"
+   curl -v https: api-m.sandbox.paypal.com/v1/oauth2/token -H "Accept: application/json" -H "Accept-Language: en_US" -user "AepKH-xxF8qNByIFIJFjMf2_nC7nxYHPZhGJnXM-U9AljTeam_vK-AN5bCcNVpSo3dR7S7resSz2ZVDh:ELjbpKuYBINhFtmRDymJwB4tEGKPE-dVakWKCuKKDHhiM2dbxYerhFQs03vHUoaUW9D6HYHvCzmNhjGy" -d "grant_type=client_credentials"
+
+      "Authorization: Bearer A21AAJ_ouWJlu1JxL_ayh7IwGFgPbik9fdthNQXiGRjBomMp9dOEkZK2W6GTW8n8AXpwHnMUhdQ5Gd3nJM4JYWZU-IPuu42bg"
+      {
+          "scope":"https: uri.paypal.com/services/invoicing https: uri.paypal.com/services/vault/payment-tokens/read https: uri.paypal.com/services/disputes/read-buyer https: uri.paypal.com/services/payments/realtimepayment https: uri.paypal.com/services/disputes/update-seller https: uri.paypal.com/services/payments/payment/authcapture openid https: uri.paypal.com/services/disputes/read-seller Braintree:Vault https: uri.paypal.com/services/payments/refund https: api.paypal.com/v1/vault/credit-card https: api.paypal.com/v1/payments/.* https: uri.paypal.com/payments/payouts https: uri.paypal.com/services/vault/payment-tokens/readwrite https: api.paypal.com/v1/vault/credit-card/.* https: uri.paypal.com/services/subscriptions https: uri.paypal.com/services/applications/webhooks",
+          "access_token":"A21AAJ_ouWJlu1JxL_ayh7IwGFgPbik9fdthNQXiGRjBomMp9dOEkZK2W6GTW8n8AXpwHnMUhdQ5Gd3nJM4JYWZU-IPuu42bg",
+          "token_type":"Bearer",
+          "app_id":"APP-80W284485P519543T",
+          "expires_in":32400,
+          "nonce":"2021-03-04T17:59:18ZousIN8wJIYFe1muEedFWDy8RFW3DUACKzCP4efrPQYc"
+       }
+
+      > User-Agent: curl/7.65.3
+  > Accept: application/json
+  > Accept-Language: en_US
+  > Content-Length: 29
+  > Content-Type: application/x-www-form-urlencoded
+  >
+  * upload completely sent off: 29 out of 29 bytes
+  * Mark bundle as not supporting multiuse
+  < HTTP/1.1 200 OK
+  < Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+  < Content-Length: 1055
+  < Content-Type: application/json
+  < Paypal-Debug-Id: e4184c56a14d5
+  < X-Paypal-Token-Service: IAAS
+  < Date: Thu, 04 Mar 2021 17:59:18 GMT
+  < Connection: keep-alive
+  < X-N: S
+  <
+  {"scope":"https: uri.paypal.com/services/invoicing https: uri.paypal.com/services/vault/payment-tokens/read https: uri.paypal.com/services/disputes/read-buyer https: uri.paypal.com/services/payments/realtimepayment https: uri.paypal.com/services/disputes/update-seller https: uri.paypal.com/services/payments/payment/authcapture openid https: uri.paypal.com/services/disputes/read-seller Braintree:Vault https: uri.paypal.com/services/payments/refund https: api.paypal.com/v1/vault/credit-card https: api.paypal.com/v1/payments/.* https: uri.paypal.com/payments/payouts https: uri.paypal.com/services/vault/payment-tokens/readwrite https: api.paypal.com/v1/vault/credit-card/.* https: uri.paypal.com/services/subscriptions https: uri.paypal.com/services/applications/webhooks","access_token":"A21AAJ_ouWJlu1JxL_ayh7IwGFgPbik9fdthNQXiGRjBomMp9dOEkZK2W6GTW8n8AXpwHnMUhdQ5Gd3nJM4JYWZU-IPuu42bg","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":32400,"nonce":"2021-03-04T17:59:18ZousIN8wJIYFe1muEedFWDy8RFW3DUACKzCP4efrPQYc"}* Connection #0 to host api-m.sandbox.paypal.com left intact
+
+$.ajax({
+    type: 'POST',
+    url: url,
+    headers: {
+        "My-First-Header":"first value",
+        "My-Second-Header":"second value"
+    }
+     OR
+     beforeSend: function(xhr) { 
+       xhr.setRequestHeader("My-First-Header", "first value"); 
+       xhr.setRequestHeader("My-Second-Header", "second value"); 
+     }
+}).done(function(data) { 
+    alert(data);
+});

@@ -1,0 +1,50 @@
+[23-Feb-2019 15:33:36 Europe/London] Hello, errors!
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined variable: product in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-backend-process.php on line 8
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: videos in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-backend-process.php on line 81
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: images in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-backend-process.php on line 84
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: archives in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-backend-process.php on line 85
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined variable: queueSize in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 150
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined variable: vidsLoaded in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 364
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined index: attr_name in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-right-column.php on line 151
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Undefined variable: vidString in /home/sites/5b/8/892314d51b/public_html/admin/includes/product-bottom.php on line 57
+[23-Feb-2019 15:33:36 Europe/London] Hello, errors!
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Constant STATE already defined in /home/sites/5b/8/892314d51b/public_html/helpers/helpers.php on line 7
+[23-Feb-2019 15:33:36 Europe/London] Hello, errors!
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Constant STATE already defined in /home/sites/5b/8/892314d51b/public_html/helpers/helpers.php on line 7
+[23-Feb-2019 15:33:36 Europe/London] Hello, errors!
+[23-Feb-2019 15:33:36 Europe/London] PHP Notice:  Constant STATE already defined in /home/sites/5b/8/892314d51b/public_html/helpers/helpers.php on line 7

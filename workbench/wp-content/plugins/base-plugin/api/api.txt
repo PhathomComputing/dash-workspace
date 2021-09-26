@@ -1,0 +1,44 @@
+CK: ck_b0367f29a2f2cedc4a0f7b30b5ddf471bd599bf4
+CS: cs_31e58ab154d7ac8b357d9bcaab553d1b4546e42b
+
+/wc-auth/v1/authorize
+
+<?php
+$store_url = 'http://example.com';
+$endpoint = '/wc-auth/v1/authorize';
+$params = [
+    'app_name' => 'My App Name',
+    'scope' => 'write',
+    'user_id' => 123,
+    'return_url' => 'http://app.com',
+    'callback_url' => 'https://app.com'
+];
+$query_string = http_build_query( $params );
+
+echo $store_url . $endpoint . '?' . $query_string;
+?>
+
+{
+    "key_id": 1,
+    "user_id": 123,
+    "consumer_key": "ck_xxxxxxxxxxxxxxxx",
+    "consumer_secret": "cs_xxxxxxxxxxxxxxxx",
+    "key_permissions": "read_write"
+}
+
+
+<?php
+require __DIR__ . '/vendor/autoload.php';
+
+use Automattic\WooCommerce\Client;
+
+$woocommerce = new Client(
+    'https://example.com',
+    'consumer_key',
+    'consumer_secret',
+    [
+        'wp_api' => true,
+        'version' => 'wc/v3'
+    ]
+);
+?>

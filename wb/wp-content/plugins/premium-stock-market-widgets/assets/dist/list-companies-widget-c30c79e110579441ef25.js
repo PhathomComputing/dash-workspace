@@ -1,0 +1,13 @@
+/*!
+ * 
+ * Premium Stock Market Widgets
+ * -----------------------------
+ * Version 3.2.6, built on Friday, June 4, 2021
+ * Copyright (c) Financial apps and plugins <info@financialplugins.com>. All rights reserved
+ * Demo: https://stockmarketwidgets.financialplugins.com/
+ * Purchase (WordPress version): https://1.envato.market/az97R
+ * Purchase (PHP version): https://1.envato.market/AQ17o
+ * Like: https://www.facebook.com/financialplugins/
+ * 
+ */
+(window.webpackJsonp94003=window.webpackJsonp94003||[]).push([[25],{1001:function(t,e,s){"use strict";s.r(e);var a=function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("div",{class:t.classes},t._l(t.fields,(function(e){return s("div",{key:e},[s("i",{staticClass:"fas fa-angle-right"}),t._v(" "),s("span",{staticClass:"smw-bold"},[t._v(t._s(t.translate("logo_name"===e?"name":e))+":")]),t._v(" "),s("placeholder",{attrs:{display:t.display}},[["logo","logo_name"].indexOf(e)>-1?s("logo",{attrs:{asset:t.asset}}):t._e(),t._v(" "),"website"===e?s("a",{attrs:{href:t.getDataField(t.$attrs,t.asset,"website"),target:"_blank",rel:"nofollow"}},[t._v("\n        "+t._s((t.getDataField(t.$attrs,t.asset,"website")||"").replace(/^https?:\/\//,""))+"\n      ")]):s("quote",t._b({attrs:{asset:t.asset,field:e.replace("logo_name","name")}},"quote",t.$attrs,!1))],1)],1)})),0)};a._withStripped=!0;var n=s(261),i=s(264),o=s(265),r={components:{Placeholder:s(263).a,Quote:i.a,Logo:o.a},mixins:[n.a]},l=(s(845),s(0)),c=Object(l.a)(r,a,[],!1,null,"1010fead",null);c.options.__file="assets/js/components/widgets/list-companies/basic/template.vue";e.default=c.exports},1058:function(t,e,s){"use strict";s.r(e);var a=function(){var t=this.$createElement;return(this._self._c||t)(this.template,this._b({tag:"component"},"component",this.$attrs,!1))};a._withStripped=!0;var n=s(267),i=s(10),o={components:Object(i.d)(s(844)),mixins:[n.a]},r=s(0),l=Object(r.a)(o,a,[],!1,null,null,null);l.options.__file="assets/js/components/widgets/list-companies/type.vue";e.default=l.exports},432:function(t,e,s){var a=s(28),n=s(846);"string"==typeof(n=n.__esModule?n.default:n)&&(n=[[t.i,n,""]]);var i={insert:"head",singleton:!1};a(n,i);t.exports=n.locals||{}},844:function(t,e,s){var a={"./basic/template.vue":1001};function n(t){var e=i(t);return s(e)}function i(t){if(!s.o(a,t)){var e=new Error("Cannot find module '"+t+"'");throw e.code="MODULE_NOT_FOUND",e}return a[t]}n.keys=function(){return Object.keys(a)},n.resolve=i,t.exports=n,n.id=844},845:function(t,e,s){"use strict";var a=s(432);s.n(a).a},846:function(t,e,s){"use strict";s.r(e);var a=s(16),n=s.n(a)()(!1);n.push([t.i,".smw-widget>div[data-v-1010fead]{margin-bottom:0.5em}.smw-widget .smw-field-logo[data-v-1010fead]{height:1em;margin-right:0.4em}\n",""]),e.default=n}}]);

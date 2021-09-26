@@ -1,0 +1,12 @@
+{
+    "success":true,
+    "message":"You have successfully activated theme",
+    "data":{
+        "validation":{"secret_key":"af672623d02809825bb1673b68ab0c00",
+        "item_id":7315054,
+        "purchase_code":"0f61689f-8726-4027-84a1-5078bee036cc"
+        },"import":
+        {
+            "submit":"import-demo-data",
+            "url":"http:\/\/export.qode.com\/"}},
+    "response_code":601}

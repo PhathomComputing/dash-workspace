@@ -1,0 +1,240 @@
+Premium Stock Market Widgets (WordPress / PHP plugin)
+-----------------------------------------------------
+
+CHANGES HISTORY
+---------------
+v3.2.6 - 4 June 2021
+- Minor bug fixes.
+
+v3.2.5 - 2 June 2021
+- Bug fix: chart tooltip is displayed outside of the container.
+
+v3.2.4 - 24 May 2021
+- Minor bug fixes.
+
+v3.2.3 - 17 March 2021
+- Bug fix: empty About block in Accordion - Extended widget.
+
+v3.2.2 - 12 January 2021
+- Bug fix: ticker widgets in Safari browser.
+
+v3.2.1 - 15 December 2020
+- Equity options widgets support (extra add-on).
+
+v3.2.0 - 14 December 2020
+- Extra add-ons support.
+
+v3.1.3 - 8 December 2020
+- Bug fix: Inline widget builder.
+
+v3.1.2 - 4 December 2020
+- Bug fix: ticker widgets in RTL websites.
+- Bug fix: virtual asset pages.
+
+v3.1.1 - 26 November 2020
+- Bug fix: Search in Table and Portfolio widgets.
+- Bug fix: "dot" symbol is removed when uploading an asset logo image.
+
+v3.1.0 - 21 November 2020
+- New Market widget: card, clock, ticker, table.
+- New News widget: card, ticker, typed.
+- Company data widget: new Google map template.
+- Widgets are split into groups for better navigation in the builder.
+
+v3.0.3 - 12 November 2020
+- Bug fix: asset names overrides feature doesn't work for symbols, which contains a dot (".").
+
+v3.0.2 - 3 November 2020
+- Portfolio widget: ability to fill "Purchase Date" and "Sell Date" fields using a date picker and sort them properly.
+
+v3.0.1 - 30 October 2020
+- Bug fix: portfolio widget for non-US stocks.
+
+v3.0.0 - 23 October 2020
+IMPORTANT! PLEASE RE-BUILD ALL WIDGET SHORTCODES.
+- New card, company profile, comparison, table, ticker widget templates.
+- Search widget: support for quote look up without redirect.
+- Chart widget: period selector.
+- Ticker widget: ability to disable animation.
+- Accordion & card widgets: allow to set chart period & interval.
+- Content loading placeholders.
+- Custom colors support in all widgets.
+- Ability to specify custom number & date formatting options.
+- Ability to load widget configuration from an existing shortcode.
+- Ability to hide asset symbol suffix from display.
+- Ability to upload logo images through backend (WordPress version).
+- Plugin auto updates (WordPress version).
+- Performance improvements.
+
+v2.1.10 - 27 July 2020
+- Minor bug fixes.
+
+v2.1.9 - 2 April 2020
+- Loading placeholder for Table quotes, Table history and Table portfolio widgets.
+
+v2.1.8 - 07 March 2020
+- Don't sort datatables if sort order is not specified.
+
+v2.1.7 - 02 March 2020
+- Bug fix: incorrect sorting by market cap when a stock index is present in the table widget.
+- Ticker widget initialization improvement.
+
+v2.1.6 - 26 February 2020
+- Bug fix: market cap is displayed in billions instead of trillions.
+
+v2.1.5 - 15 October 2019
+- New Extended template for Accordion widget.
+
+v2.1.4 - 08 August 2019
+- Bug fix: Don't display currency in the chart widget if it's not provided by the API.
+
+v2.1.3 - 12 June 2019
+- New button link template added, which makes color of the link green or red depending on the asset change value.
+
+v2.1.2 - 25 March 2019
+- Bug fix: search widget AJAX request doesn't work for non-admin (WordPress version only).
+- Bug fix: main menu doesn't work on virtual asset pages (WordPress version only).
+
+v2.1.1 - 13 March 2019
+- Empty spaces are replaced with hyphens in links, where asset name substitute variable is used.
+
+v2.1.0 - 07 March 2019
+- New widget: asset search dropdown (with redirect to a given link on click).
+
+v2.0.5 - 04 March 2019
+Short positions support in the Portfolio widget.
+Bug fix: search dropdown can not be disabled.
+
+v2.0.4 - 18 February 2019
+Bug fix: gaps in the chart widget for some commodities.
+Bug fix: allow unicode symbols (HTML entities) in translations.
+Bug fix: decimal precision for penny stocks.
+
+v2.0.3 - 15 February 2019
+Bug fix: asset name is not displayed for currencies and commodities.
+
+v2.0.2 - 11 February 2019
+- Purchase date, sell date, sell price fields added to the portfolio widget.
+
+v2.0.1 - 08 February 2019
+- Bug fix: duplicate name in accordion widgets.
+
+v2.0.0 - 07 February 2019
+IMPORTANT! The plugin is rewritten from scratch to provide better performance, ensure compatibility with wider range of websites
+and offer more unique widgets and templates. After upgrading to this version you will have to rebuild all previously used shortcodes.
+
+Functional changes:
+- Multilanguage support (integration with WPML).
+- New widget: Info.
+- New widget: Button.
+- New widget: Label.
+- New widget: Accordion.
+- New widget: Table - historical data.
+- New widget: Doughnut.
+- New widget: Odometer.
+- New widget: Gauge.
+- New widget: Typed.
+- New widget: Toast.
+- Improved Table widget (embeddable charts and custom links, pagination, new templates).
+- Logo images support.
+- Widgets builder added to the PHP version.
+- Spark widget removed.
+
+v1.9.0 - 20 September 2018
+- Portfolio widgets enhancements: ability to specify Purchase Date and Sell Price. Invested amount (calculated as Quantity * Purchase Price) and Return columns added.
+- Dates in spark chart widgets are formatted according to "Date Time format" plugin setting.
+- Bug fix: table, combo, portfolio widgets don't work properly when decimal separator is set to comma (",").
+
+v1.8.9 - 18 April 2018
+- Intraday intervals (5m, 15m, 30m, 1h, 1.5h) are added to the chart widget (subject to market data availability for certain symbols)
+
+v1.8.8 - 09 April 2018
+- Bug fix: Do not enqueue plugin CSS & JavaScript assets when not on the widget configuration page.
+
+v1.8.7 - 15 March 2018
+- Bug fix: Compatibility issue with Ultimate Membership Pro plugin fixed.
+- Bug fix: Purchase price label in portfolio widgets was not displayed properly on mobile phones.
+
+v1.8.6 - 10 January 2018
+- Total average change (absolute and percentage) added to portfolio widgets.
+
+v1.8.5 - 08 December 2017
+- Table, combo, portfolio, comparison and leaderboard widgets made responsive on mobiles.
+- Ability to add links to individual asset pages in table, combo, portfolio and comparison widgets.
+
+v1.8.4 - 22 November 2017
+- Bug fix: some % fields were not displayed correctly.
+- Bug fix: precision setting was not taken into account when % change is zero.
+
+v1.8.3 - 11 November 2017
+- Bug fixes.
+
+v1.8.2 - 10 November 2017
+- Bug fixes: display correct quotes for futures, currencies and other types of assets. Display correct asset name.
+After upgrading from 1.8.1 or earlier versions table, comparison, portfolio, combo widgets shortcodes might need to be rebuilt.
+
+v1.8.1 - 03 November 2017
+- Various bug fixes.
+
+v1.8.0 - 02 November 2017
+- Major issue fix: a new data source is implemented instead of the old decommissioned API.
+  IMPORTANT: all widgets shortcodes need to be re-built. WordPress plugin users can do it through the admin panel.
+
+v1.7.6 - 26 September 2017
+- New combo widgets are added
+
+v1.7.5 - 30 June 2017
+- Chart and combo widgets are added back
+- Performance improvements and bug fixes
+
+v1.7.4 - 22 May 2017
+- Static chart and combo widgets are removed as the 3rd party charts provider stopped supporting them.
+- Different market data source is implemented to display sparkline charts widgets and some indexes (DJIA, IBEX etc)
+
+v1.7.3 - 04 May 2017
+- Bug fix: Asset search autocomplete function stopped working
+
+v1.7.2 - 19 Apr 2017
+- Bug fix: spark charts widgets stopped working
+
+v1.7.1 - 28 Mar 2017
+- Issue fixed when DJI quote was not availale in table and ticker widgets
+
+v1.7.0 - 15 Mar 2017
+- Simple portfolio widgets are implemented
+- Performance improvements
+
+v1.6.1 - 03 Feb 2017
+- PHP 5.6 dependency removed, so that the plugin can work on servers with PHP 5.4+
+
+v1.6.0 - 30 Jan 2017
+- Asset name override feature on the plugin settings page
+- New widget type: Box widgets with sparkline charts
+- New widget type: Leaderboard
+- Support for Dow Jones Industrial Average index added
+- Support for NSE, BSE, Madrid Stock Exchanges added (only quotes without extended data)
+
+v1.5.0 - 20 Jan 2017
+- Plugin settings page added
+- Click-sort feature added to table widgets
+
+v1.4.1 - 09 Dec 2016
+- Fixed PHP 5.4 compatibility issue, which caused "Parse error: syntax error, unexpected '(array)' (array) (T_ARRAY_CAST)"
+- Pulsate effect added when any values are changed during widget data refresh (if auto refresh option is specified)
+- Mutual funds added to predefined collections
+
+v1.4.0 - 05 Dec 2016
+- Significant performance optimization and overall refactoring
+- New templates added
+- New widget types added: inline and comparison
+- Predefined asset collections added for bulk adding symbols (stock indices, currencies, commodities, ETFs)
+
+v1.3.0 - 18 Nov 2016
+- Bug fix: some widgets were floating above the main post content
+- New feature: Circle template added to single quote widgets
+
+v1.2.0 - 14 Nov 2016
+- New feature: technical indicators added to static charts
+
+v1.0.0 - 09 Nov 2016
+- Initial release
